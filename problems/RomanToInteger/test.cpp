@@ -8,7 +8,7 @@
 
 class RomanToIntegerTest : public testing::Test {
 public:
-    Solution testedObject;
+    RomanToInt::Solution testedObject;
 };
 
 TEST_F(RomanToIntegerTest, test1) {

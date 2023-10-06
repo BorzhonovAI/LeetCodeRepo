@@ -2,14 +2,17 @@
 // Created by Admin on 01.10.2023.
 //
 
-#ifndef LEETCODEPROJECT_SOLUTION_H
-#define LEETCODEPROJECT_SOLUTION_H
+#ifndef LEETCODEPROJECT_ROMAN_TO_INT_SOLUTION_H
+#define LEETCODEPROJECT_ROMAN_TO_INT_SOLUTION_H
 
 #include <string>
 
-class Solution {
-public:
-    int romanToInt(std::string s);
-};
+namespace RomanToInt {
 
-#endif // LEETCODEPROJECT_SOLUTION_H
+    class Solution {
+    public:
+        int romanToInt(const std::string& str);
+    };
+
+} // namespace RomanToInt
+#endif // LEETCODEPROJECT_ROMAN_TO_INT_SOLUTION_H
