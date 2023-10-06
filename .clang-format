@@ -23,7 +23,7 @@ BinPackParameters: 'true'
 BreakBeforeBraces: Attach
 BreakBeforeTernaryOperators: 'false'
 BreakConstructorInitializers: AfterColon
-ColumnLimit: '110'
+ColumnLimit: '75'
 CompactNamespaces: 'false'
 ConstructorInitializerAllOnOneLineOrOnePerLine: 'false'
 Cpp11BracedListStyle: 'true'
